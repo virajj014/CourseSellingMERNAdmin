@@ -1,0 +1,104 @@
+.kycuser-outer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kycform-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.kycuser-outer .kyc-form {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.kycuser-outer .kyc-form .outer {
+    display: flex;
+    flex-direction: column;
+}
+
+.kycuser-outer .kyc-form .inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.kycuser-outer input {
+    background-color: white;
+    padding: 0px;
+    font-weight: 700;
+    margin: 5px;
+    border: none
+}
+
+.kyc-form1 .outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+.kycuser-outer .hrline {
+    width: 100%;
+    height: 1px;
+    background-color: #bdbdbd;
+    margin: 30px 0px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group button {
+    border: none;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.kyc-form1 .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.kyc-form1 .outer .inner label {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.kyc-form1 embed {
+    margin-bottom: 20px;
+}
+
+.btn-approved {
+    background-color: green;
+}
+
+.btn-rejected {
+    background-color: red;
+}

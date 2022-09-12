@@ -1,0 +1,78 @@
+.events-table {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 30px 0px;
+    border-radius: 20px;
+    width: 80%;
+    border: 1px solid orange;
+    overflow: hidden;
+}
+
+.events-table-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: orange;
+    padding: 10px 20px;
+    padding-right: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.events-table button {
+    background-color: orange;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    width: fit-content;
+}
+
+.events-table-data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.events-table-data-row {
+    display: flex;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px gray;
+    align-items: center;
+}
+
+
+.events-table-data-row button:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.events-table-name {
+    width: 100px;
+    /* background-color: aqua; */
+}
+
+.events-table-sno {
+    width: 50px;
+    /* background-color: aqua; */
+}
+
+.events-table-img img {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.events-table-img img:hover {
+    width: 300px;
+    height: 169px;
+}

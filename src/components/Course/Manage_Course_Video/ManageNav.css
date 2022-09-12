@@ -1,0 +1,26 @@
+.manage-nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.manage-nav .btn {
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    color: black;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.manage-nav .btn-active {
+    background-color: black;
+    margin: 10px;
+    width: 200px;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 17px;
+}

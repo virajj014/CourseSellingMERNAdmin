@@ -1,0 +1,24 @@
+.search-sort {
+    display: flex;
+    align-items: center;
+}
+
+.kycfilterstatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kycfilterstatus p {
+    font-size: 15px;
+    color: orange;
+    font-weight: 600;
+}
+
+.kycfilterstatus select {
+    border: 2px solid orange;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}

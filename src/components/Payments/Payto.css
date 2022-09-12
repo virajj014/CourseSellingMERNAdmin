@@ -1,0 +1,128 @@
+.payto-user-detail {
+    display: flex;
+    margin: 20px;
+    width: 90%;
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.payto-s1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.payto-s1 p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.payto-s1 span {
+    font-weight: 600;
+    color: rgb(65, 64, 64);
+}
+
+.payto-vr {
+    height: 100px;
+    width: 2px;
+    border-radius: 20px;
+    background-color: rgb(129, 128, 128);
+}
+
+/* s2 */
+.payto-s4 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+}
+
+.payto-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.payto-table .table-head {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.payto-table .table-head {
+    color: white;
+}
+
+.payto-table .table-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.payto-table .table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.payto-table .table-sno {
+    width: 50px;
+}
+
+.payto-table .table-small {
+    width: 20%;
+}
+
+
+
+/* form */
+.payto-form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0px 20px;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+
+}
+
+
+.payto-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+    /* align-items: center; */
+}
+
+.payto-form form label {
+    font-size: 18px;
+    padding: 15px 0px 5px 0px;
+}
+
+.payto-form form input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 5px 0px;
+}
+
+.payto-form .paybtn {
+    background-color: orange;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    width: fit-content;
+    cursor: pointer;
+}

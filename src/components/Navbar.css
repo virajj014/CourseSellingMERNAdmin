@@ -1,0 +1,107 @@
+.adminnav {
+    width: 100%;
+}
+
+.adminnav .s1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.adminnav .left {
+    display: flex;
+    align-items: center;
+}
+
+.adminnav .left img {
+    width: 50px;
+}
+
+.adminnav .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+
+
+.adminnav .btn-inactive {
+    background-color: white;
+    border: 2px solid orange;
+    margin: 0px 10px;
+    color: orange;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.adminnav .right .btn-inactive:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-active {
+    background-color: white;
+    border: 2px solid orange;
+    margin: 0px 10px;
+    color: orange;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 15px;
+
+
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.adminnav .s2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.adminnav button {
+    margin: 0px 10px;
+}
+
+.iconbtn-inactive {
+    display: flex;
+    border: none;
+    padding: 0px;
+    /* background-color: aqua; */
+}
+
+.iconbtn-inactive :hover {
+    cursor: pointer;
+    color: orange;
+    background: none;
+}
+
+.iconbtn-inactive svg,
+.iconbtn-active svg {
+    width: 20px;
+}
+
+.notification-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: -6px;
+    top: -5px;
+}
+
+.iconbtn-active {
+    color: orange;
+    border: none;
+}

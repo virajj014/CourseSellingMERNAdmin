@@ -1,0 +1,66 @@
+.Addcourse-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+}
+
+.new-form {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Addcourse-outer form {
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 10px gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+.Addcourse-outer form input {
+    width: 500px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.Addcourse-outer form textarea {
+    max-width: 500px;
+    min-width: 500px;
+    min-height: 100px;
+    max-height: 100px;
+    margin: 0px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.Addcourse-outer form button {
+    background-color: white;
+    color: orange;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid orange;
+}
+
+.Addcourse-outer form button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
